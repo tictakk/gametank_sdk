@@ -19,7 +19,7 @@ SpriteSlot text_load_font();
 void text_print_string(char* text);
 void text_sprint_num(char* s, unsigned char num);
 
-extern char text_cursor_x, text_cursor_y, text_print_width, text_print_line_start;
+extern char text_cursor_x, text_cursor_y, text_print_width, text_print_line_start, font_slot;
 extern unsigned char text_color;
 
 #endif

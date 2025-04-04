@@ -1,0 +1,6 @@
+#define GS_MAIN_SCREEN 0
+#define GS_CHARACTER_SELECT_SCREEN 1
+#define GS_TABLE_SELECT_SCREEN 2
+#define GS_GAME_SCREEN 3
+
+extern char game_state = GS_MAIN_SCREEN;
